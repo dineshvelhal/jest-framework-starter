@@ -4,14 +4,19 @@ pipeline {
         nodejs 'nodejs12.14.0'
     }
     stages {
-        stage('install') { 
+        stage('INSTALL') { 
             steps {
                 sh 'npm install' 
             }
         }
-        stage('test') { 
+        stage('TEST') { 
             steps {
                 sh 'npm test' 
+            }
+            post {
+                always {
+                    step([$class: 'CoberturaPublisher', coberturaReportFile: '/coverage/cobertura-coverage.xml'])
+                }
             }
         }
     }
