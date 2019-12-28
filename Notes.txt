@@ -1,0 +1,56 @@
+----------------------------------------------------------------------------------------------------------------
+TO-DO
+----------------------------------------------------------------------------------------------------------------
+	Basic Projects setup
+		- package.json - DONE
+		- folder structure - DONE
+		- jest config - DONE
+	
+	Execution
+		- Serial - DONE
+		- Parallel -DONE
+	
+	Jenkins Integration
+		- XUnit style reporting - DONE
+		- Sample Pipeline - 
+	
+	HTML Reporting
+		- Plugins - DONE
+		- Configurations - DONE
+	
+		
+
+----------------------------------------------------------------------------------------------------------------
+LINKS
+----------------------------------------------------------------------------------------------------------------
+	Reporters:
+		https://www.npmjs.com/package/jest-html-reporter
+		https://github.com/Hargne/jest-html-reporter
+		
+		https://www.npmjs.com/package/jest-html-reporters 	
+		https://github.com/Hazyzh/jest-html-reporters#readme
+		
+		https://www.npmjs.com/package/jest-stare 
+		https://github.com/dkelosky/jest-stare
+		
+		https://www.npmjs.com/package/jest-junit 
+		https://github.com/jest-community/jest-junit#readme
+		
+		https://medium.com/@elisegev/running-tests-and-creating-code-coverage-reports-for-react-nodejs-project-continuously-with-60312b6a2dd0
+		https://zellwk.com/blog/endpoint-testing/
+
+		https://www.npmjs.com/package/xunit-viewer
+	
+	Selenium:
+		https://github.com/alexeyraspopov/jest-webdriver
+		why selenium-jest not a good combo - https://www.intricatecloud.io/2019/03/can-i-use-jest-to-run-webdriverio-tests/
+		
+
+	Fancy:
+		https://www.npmjs.com/package/jest-image-snapshot
+
+	Reference:
+		https://github.com/jest-community/awesome-jest#reporters 
+		
+	Future:
+		https://hashnode.com/post/how-to-test-your-vue-project-with-jest-and-nightwatch-cjskmturk00665ss1gauawb84
