@@ -8,13 +8,13 @@ If you are planning to use Jest in your testing work, this project will surely g
 # So, what is jest-framework-starter?
 This is a Test Automation Framework with a lot of important features already built-in.
 ## It's preconfigured
-It comes with a jest config file that has a lot of settings already configured. This means, you can use it as-is or  customize it further as per your needs. see the central jest config file [here](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js).
+It comes with a jest config file that has a lot of settings already configured. This means, you can use it as-is or  customize it further as per your needs. see the central jest config file [here](jest.config.js).
 
 ## Global Setup & Teardown scripts
-Under the [testconfig](https://github.com/dineshvelhal/jest-framework-starter/tree/master/testconfig) folder, there are `global_setup` and `global_teardown` scripts. They run only once for entire set of tests that get executed. You may add global-level setup and teardown code here. To begin with, these scripts only print the colorful messages on the console.
+Under the [testconfig](testconfig) folder, there are `global_setup` and `global_teardown` scripts. They run only once for entire set of tests that get executed. You may add global-level setup and teardown code here. To begin with, these scripts only print the colorful messages on the console.
 
 ## Global Variables
-[Jest Config](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js) file has a section where global variables can be defined. See a sample Global variables section below.
+[Jest Config](jest.config.js) file has a section where global variables can be defined. See a sample Global variables section below.
 ```javascript
    globals: {
       __APP_NAME__: 'MATH',
@@ -56,7 +56,8 @@ _**Bonus feature - 1**_ - A detailed coverage report is available in a colorful 
 
 _**Bonus feature - 2**_ - the coverage report is also available in a colorful format in the Jenkins UI, when the tests are run through Jenkins CI builds. More on this in the following sections.
 
-
+## Jenkins CI Integration
+The framework comes with a sample [Jenkinsfile](Jenkinsfile) that can be use to setup a basic Pipeline with test step. The Jenkinsfile executes below steps during the build operation.
 
 ## References
 - [Jest Home](https://jestjs.io/en/)
