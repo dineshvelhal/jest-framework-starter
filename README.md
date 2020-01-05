@@ -39,11 +39,16 @@ One use of global variables is to store application and environment details like
 I have configured 3 different HTML reports in the framework. The configuraton is available in the [Jest Config](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js) file under the `reporters` key. Based on your liking you may choose to use any one of them (or all, if you are inclined to do so 😊).
 ### Reports screenshots
 #### JEST-HTML-Reporter
+
 ![JEST-HTML-Reporter](JEST-HTML-Reporter.png)
+
 #### JEST-HTML-Reporters
+
 ![JEST-HTML-Reporters_1](JEST-HTML-Reporters_1.png)
 ![JEST-HTML-Reporters_2](JEST-HTML-Reporters_2.png)
+
 #### JEST-STARE Reports
+
 ![JEST-STARE-1](JEST-STARE-1.png)
 ![JEST-STARE-2](JEST-STARE-2.png)
 
@@ -64,10 +69,19 @@ The framework comes with a sample [Jenkinsfile](Jenkinsfile) that can be use to 
    - read the junit.xml and generate report in the Jenkins project
    - read the coverage xml to generate the Cobertura coverage report
 See the Jenkins Coverage report below.
+
 ![jenkins-coverage](jenkins-coverage.png)
 
 ## How to use this repository?
+
 - Clone or download the repo.
+- Switch to the framework folder
+- Run `npm install`. This will install all framework dependencies (local install)
+- Run `npm test` to trigger jest execution run. After the run is complete, some extra flders get created (`reports`, `coverage` etc). You can see various html reports under the `reports` folder and coverage reports under the `coverage` folder.
+
+## The framework folder structure
+
+![folder structure](folder-structure.png)
 
 ## References
 - [Jest Home](https://jestjs.io/en/)
