@@ -1,12 +1,15 @@
 # jest-framework-starter
-Basic test framework baseline using Jest
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 
 
 
 
 
-
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 
 
