@@ -1,15 +1,8 @@
 # jest-framework-starter
-Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+(As per the Jest website) Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
+I have created this project as a starting point for those who want to use Jest for functional test automation. 
 
-
-
-
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
 
 
 
