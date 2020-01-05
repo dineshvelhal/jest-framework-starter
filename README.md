@@ -40,6 +40,9 @@ I have configured 3 different HTML reports in the framework. The configuraton is
 ### Reports screenshots
 #### JEST-HTML-Reporter
 ![JEST-HTML-Reporter](JEST-HTML-Reporter.png)
+#### JEST-HTML-Reporters
+![JEST-HTML-Reporters_1](JEST-HTML-Reporters_1.png)
+![JEST-HTML-Reporters_2](JEST-HTML-Reporters_2.png)
 
 
 ## References
