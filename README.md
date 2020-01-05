@@ -50,9 +50,9 @@ I have configured 3 different HTML reports in the framework. The configuraton is
 ## Coverage Report
 Test coverage is by default enabled in the config file. The framework generates coverage reports in multiple formats. (It also shows coverage report and summary on the console output.). All coverage reports are available under the `coverage` sub-folder. 
 
-_**Bonus feature - 1**_ - the coverage report is also available in a colorful format as part of the JEST-STARE HTML reports. See the `Coverage` link at the top.
+_**Bonus feature - 1**_ - A detailed coverage report is available in a colorful format as part of the JEST-STARE HTML reports. See the `Coverage` link at the top in the screenshot above.
 
-_**Bonus feature - 2**_ - the coverage report is also available in a colorful format when the tests are run through Jenkins CI builds. More on this in the following sections.
+_**Bonus feature - 2**_ - the coverage report is also available in a colorful format in the Jenkins UI, when the tests are run through Jenkins CI builds. More on this in the following sections.
 
 
 
