@@ -52,6 +52,8 @@ Test coverage is by default enabled in the config file. The framework generates 
 
 _**Bonus feature - 1**_ - A detailed coverage report is available in a colorful format as part of the JEST-STARE HTML reports. See the `Coverage` link at the top in the screenshot above.
 
+![Coverage](Covergae.png)
+
 _**Bonus feature - 2**_ - the coverage report is also available in a colorful format in the Jenkins UI, when the tests are run through Jenkins CI builds. More on this in the following sections.
 
 
