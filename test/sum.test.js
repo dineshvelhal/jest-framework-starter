@@ -1,7 +1,7 @@
 const math = require("../app/math");
 
 // parent test suite
-describe("MATH - Main Suite", () => {
+describe(`${__APP_NAME__} - Main Suite`, () => { // __APP_NAME__ value is set in the jest.config.js under the Globals section
 
   // innner test suite
   describe("Math Operations", () => {

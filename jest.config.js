@@ -3,16 +3,18 @@ module.exports = {
 
    displayName: {
       name: "BASIC TESTS",
-      color: "blue"
+      color: "blue" // This will be used in console reports
    },
 
-   maxConcurrency: 1,
+   maxConcurrency: 5,
 
+   // Test coverage settings
    collectCoverage: true,
    coverageDirectory: "./coverage",
    coverageReporters: ["lcov", , "text", "text-summary", "cobertura"],
    //coverageReporters: ["json", "lcov", "clover", "text", "text-summary"],
 
+   // 4 different types of reporters are added (you may choose to keep the ones you like)
    reporters: [
       "default",
       [
@@ -53,5 +55,15 @@ module.exports = {
             usePathForSuiteName: true
          }
       ]
-   ]
+   ],
+
+   // Global Setup and Teardown scripts (Run only once across all tests)
+   globalSetup: './testconfig/global_setup.js',
+   globalTeardown: './testconfig/global_teardown.js',
+
+   // Globals
+   // Global variables that can be set here (and can be accessed in all test scripts directly with variable names)
+   globals: {
+      __APP_NAME__: 'MATH',
+   },
 };
