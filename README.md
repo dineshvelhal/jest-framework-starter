@@ -58,6 +58,13 @@ _**Bonus feature - 2**_ - the coverage report is also available in a colorful fo
 
 ## Jenkins CI Integration
 The framework comes with a sample [Jenkinsfile](Jenkinsfile) that can be use to setup a basic Pipeline with test step. The Jenkinsfile executes below steps during the build operation.
+- Runs `npm install` to download and install the dependencies
+- Runs `npm test` to execute the jest tests
+- Runs post steps to
+   - read the junit.xml and generate report in the Jenkins project
+   - read the coverage xml to generate the Cobertura coverage report
+See the Jenkins Coverage report below.
+![jenkins-coverage](jenkins-coverage.png)
 
 ## References
 - [Jest Home](https://jestjs.io/en/)
