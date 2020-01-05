@@ -2,7 +2,7 @@ module.exports = {
    verbose: true,
 
    displayName: {
-      name: "API_TESTS",
+      name: "BASIC TESTS",
       color: "blue"
    },
 
