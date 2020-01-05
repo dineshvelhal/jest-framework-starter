@@ -77,11 +77,16 @@ See the Jenkins Coverage report below.
 - Clone or download the repo.
 - Switch to the framework folder
 - Run `npm install`. This will install all framework dependencies (local install)
-- Run `npm test` to trigger jest execution run. After the run is complete, some extra flders get created (`reports`, `coverage` etc). You can see various html reports under the `reports` folder and coverage reports under the `coverage` folder.
+- Run `npm test` to trigger the jest execution run. After the run is complete, some extra folders get created (`reports`, `coverage` etc). You can see various html reports under the `reports` folder and coverage reports under the `coverage` folder.
 
 ## The framework folder structure
 
 ![folder structure](folder-structure.png)
+
+## The console output of the execution run
+
+![console-output](console-output.png)
+
 
 ## References
 - [Jest Home](https://jestjs.io/en/)
