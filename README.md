@@ -14,7 +14,7 @@ It comes with a jest config file that has a lot of settings already configured. 
 Under the [testconfig](https://github.com/dineshvelhal/jest-framework-starter/tree/master/testconfig) folder, there are `global_setup` and `global_teardown` scripts. They run only once for entire set of tests that get executed. You may add global-level setup and teardown code here. To begin with, these scripts only print the colorful messages on the console.
 
 ## Global Variables
-[Jest Config](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js) file has a section where global variables can be defined. These can be application URLs, port numbers or any other environment specific values. See following in the config file.
+[Jest Config](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js) file has a section where global variables can be defined. See a sample Global variables section below.
 ```javascript
    globals: {
       __APP_NAME__: 'MATH',
@@ -33,8 +33,7 @@ describe(`${appName} - Main Suite`, () => {
 
 });
 ```
-
-
+One use of global variables is to store application and environment details like application URLs, port numbers, API end points.
 
 
 
