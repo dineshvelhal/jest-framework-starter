@@ -13,4 +13,4 @@ Basic test framework baseline using Jest
 
 
 # References
-(Jest Home)[https://jestjs.io/en/]
+[Jest Home](https://jestjs.io/en/)
