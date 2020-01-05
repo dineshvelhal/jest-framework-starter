@@ -43,6 +43,9 @@ I have configured 3 different HTML reports in the framework. The configuraton is
 #### JEST-HTML-Reporters
 ![JEST-HTML-Reporters_1](JEST-HTML-Reporters_1.png)
 ![JEST-HTML-Reporters_2](JEST-HTML-Reporters_2.png)
+#### JEST-STARE Reports
+![JEST-STARE-1](JEST-STARE-1.png)
+![JEST-STARE-2](JEST-STARE-2.png)
 
 
 ## References
