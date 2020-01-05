@@ -35,7 +35,11 @@ describe(`${appName} - Main Suite`, () => {
 ```
 One use of global variables is to store application and environment details like application URLs, port numbers, API end points.
 
-
+## HTML Reports
+I have configured 3 different HTML reports in the framework. The configuraton is available in the [Jest Config](https://github.com/dineshvelhal/jest-framework-starter/blob/master/jest.config.js) file under the `reporters` key. Based on your liking you may choose to use any one of them (or all, if you are inclined to do so 😊).
+### Reports screenshots
+#### JEST-HTML-Reporter
+![JEST-HTML-Reporter](JEST-HTML-Reporter.png)
 
 
 ## References
