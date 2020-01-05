@@ -23,9 +23,11 @@ Under the [testconfig](https://github.com/dineshvelhal/jest-framework-starter/tr
 The variable `__APP_NAME__` can be directly used in the test script as shown below.
 
 ```javascript
-// parent test suite
 // __APP_NAME__ value is set in the jest.config.js under the Globals section
-describe(`${__APP_NAME__} - Main Suite`, () => { 
+let appName = __APP_NAME__;
+
+// parent test suite
+describe(`${appName} - Main Suite`, () => { 
 
 ...
 
