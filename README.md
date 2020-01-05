@@ -54,7 +54,7 @@ _**Bonus feature - 1**_ - A detailed coverage report is available in a colorful 
 
 ![Coverage](Coverage.png)
 
-_**Bonus feature - 2**_ - the coverage report is also available in a colorful format in the Jenkins UI, when the tests are run through Jenkins CI builds. More on this in the following sections.
+_**Bonus feature - 2**_ - the coverage report is also available in a colorful format in the Jenkins UI, when the tests are run through Jenkins CI builds. More on this in the following section.
 
 ## Jenkins CI Integration
 The framework comes with a sample [Jenkinsfile](Jenkinsfile) that can be use to setup a basic Pipeline with test step. The Jenkinsfile executes below steps during the build operation.
@@ -65,6 +65,9 @@ The framework comes with a sample [Jenkinsfile](Jenkinsfile) that can be use to 
    - read the coverage xml to generate the Cobertura coverage report
 See the Jenkins Coverage report below.
 ![jenkins-coverage](jenkins-coverage.png)
+
+## How to use this repository?
+- Clone or download the repo.
 
 ## References
 - [Jest Home](https://jestjs.io/en/)
