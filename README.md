@@ -16,6 +16,8 @@ A sample feature and test in Jest:
     test("1 - 2 equals -1", () => {
       expect(math.difference(1, 2)).toBe(-1);
     });
+
+  });
 ```
 
 I have created this project as a starting point for those who want to use Jest for functional test automation. 
