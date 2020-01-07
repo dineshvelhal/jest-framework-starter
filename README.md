@@ -1,8 +1,24 @@
 # jest-framework-starter
 (As per the Jest website) Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It has a great API that covers features (`describe`), scenarios (`it`) and assertions (`expect`) which means you don't need any additional tools like CHAI assertion library to write your tests.
 
-I have created this project as a starting point for those who want to use Jest for functional test automation. 
+A sample feature and test in Jest:
 
+```javascript
+  // Feature
+  describe("Math Operations", () => {
+
+    // test
+    test("1 + 2 equals 3", () => {
+      expect(math.sum(1, 2)).toBe(3);
+    });
+
+    // test
+    test("1 - 2 equals -1", () => {
+      expect(math.difference(1, 2)).toBe(-1);
+    });
+```
+
+I have created this project as a starting point for those who want to use Jest for functional test automation. 
 If you are planning to use Jest in your testing work, this project will surely give you a good head-start.
 
 # So, what is jest-framework-starter?
